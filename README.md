@@ -1,7 +1,7 @@
 
 # Burn (Atom)
 
-Burn is an [Atom][atom] syntax theme. It's Like [Zenburn][zenburn], but with less Zen.
+Burn is an [Atom][atom] syntax theme. It's Like [Zenburn][zenburn], but with less Zen. *(still in active development, and maybe a little unstable)*
 
 ![JavaScript highlighted with Burn][example-javascript]
 
