@@ -10,6 +10,17 @@ Burn is an [Atom][atom] syntax theme. It's Like [Zenburn][zenburn], but with les
 ![CSS highlighted with Burn][example-css]
 
 
+# Install
+
+Install using `apm`:
+
+```sh
+apm install burn
+```
+
+Or use the Atom preferences panel to search for "Burn".
+
+
 ## Language Support
 
 ### Full support
