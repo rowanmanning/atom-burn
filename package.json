@@ -1,0 +1,12 @@
+{
+  "name": "burn",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Like Zenburn, but with less Zen",
+  "repository": "https://github.com/rowanmanning/atom-burn",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

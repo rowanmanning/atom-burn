@@ -1,0 +1,199 @@
+@import "colors";
+
+.editor-colors {
+    background-color: #222;
+    color: #dedede;
+}
+
+.editor {
+
+    .invisible-character {
+        color: #464646;
+    }
+
+    .gutter {
+        color: #bcbcbc;
+    }
+
+    .gutter .line-number {
+        opacity: 1;
+    }
+
+    .gutter .line-number:after, .fold-marker:after {
+        color: @magenta; // TODO
+    }
+
+    .cursor {
+        border-color: #dedede;
+    }
+
+    .selection .region {
+        background-color: #464646;
+    }
+
+    .line.cursor-line, .line-number.cursor-line-no-selection {
+        background-color: #2e2e2e;
+    }
+}
+
+.bracket-matcher {
+    background-color: #464646;
+    border-bottom: none;
+}
+
+.comment {
+    color: #7bae7b;
+
+    .storage {
+        color: #7bae7b;
+        font-weight: bold;
+    }
+}
+
+.entity {
+    color: #f2c23c;
+}
+.attribute-name {
+    color: #e4cf94;
+}
+
+.keyword, .storage, .punctuation.parameters {
+    color: #f4eeaf;
+}
+.keyword.control, .parameter {
+    color: #e4cf94;
+}
+
+.meta {
+    &.brace, &.curly {
+        color: #477777;
+    }
+}
+
+.constant {
+    &.numeric {
+        color: #8cd0d3;
+    }
+    &.language {
+        color: #f0dfaf;
+    }
+}
+
+.invalid.deprecated {
+    text-decoration: underline;
+    color: @red; // TODO
+}
+.invalid.illegal {
+    color: @red; // TODO
+}
+
+.string {
+    color: #d48282;
+
+    .definition, .constant.character.escape {
+         color: #a95f5f;
+    }
+}
+.regexp {
+    .keyword {
+        color: #ea7676;
+    }
+}
+
+// HTML, XML
+.text.html, .text.xml {
+    .entity.tag, .entity.attribute-name {
+        color: #e4cf94;
+    }
+    .punctuation.tag, .doctype {
+        color: #a38636;
+    }
+}
+
+// JSON
+.source.json {
+    .constant.language {
+        color: #f0dfaf;
+    }
+}
+
+// YAML
+.source.yaml {
+    .entity.tag {
+        color: #e4cf94;
+        .punctuation {
+            color: #dedede;
+        }
+    }
+    .constant .punctuation.definition {
+        color: #dedede;
+    }
+}
+
+// CSS, LESS, Sass, SCSS
+.source.css, .source.sass {
+    .attribute-name, .tag {
+        &, .entity {
+            color: #e4cf94;
+        }
+    }
+    .attribute-selector .definition {
+        color: inherit;
+    }
+    .operator.logic {
+        color: #e4cf94;
+    }
+    .punctuation.section {
+        color: #477777;
+    }
+    .unit {
+        color: #8cd0d3;
+    }
+    .constant.other, .constant.property-value {
+        color: #d48282;
+    }
+    .variable {
+        color: #f4eeaf;
+    }
+}
+
+// Markdown
+.source .markdown, .source .gfm {
+    -webkit-font-smoothing: auto;
+}
+.source.markdown, .source.gfm {
+    .heading, .hr {
+        color: #f4eeaf;
+    }
+    .bold, .italic {
+        color: #f4eeaf;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .italic {
+        font-style: italic;
+    }
+    .link {
+        .entity {
+            color: #d48282;
+        }
+        .link {
+            color: #f4eeaf;
+        }
+    }
+    .quote.support {
+        color: #f4eeaf;
+        font-weight: bold;
+    }
+    .quote.comment {
+        color: inherit;
+    }
+    .raw, .code .support.gfm {
+        color: #8cd0d3;
+    }
+    .list {
+        color: #f4eeaf;
+        font-weight: bold;
+    }
+}
