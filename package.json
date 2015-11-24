@@ -1,7 +1,7 @@
 {
   "name": "burn",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Like Zenburn, but with less Zen",
   "keywords": [
     "syntax",
