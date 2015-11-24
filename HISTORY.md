@@ -1,6 +1,10 @@
 
 # History
 
+## 0.1.2 (2015-11-24)
+
+  * Fix the base font color
+
 ## 0.1.1 (2015-11-24)
 
   * Fix deprecation warnings
