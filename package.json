@@ -2,11 +2,14 @@
   "name": "burn",
   "theme": "syntax",
   "version": "0.1.0",
-  "private": true,
   "description": "Like Zenburn, but with less Zen",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
   "repository": "https://github.com/rowanmanning/atom-burn",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
