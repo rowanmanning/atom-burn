@@ -1,6 +1,10 @@
 
 # History
 
+## 0.2.0 (2015-11-30)
+
+  * Style JSON in the same way as JavaScript
+
 ## 0.1.2 (2015-11-24)
 
   * Fix the base font color
