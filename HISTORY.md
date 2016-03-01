@@ -1,6 +1,10 @@
 
 # History
 
+## 0.2.1 (2016-03-01)
+
+  * Lighten the selection region
+
 ## 0.2.0 (2015-11-30)
 
   * Style JSON in the same way as JavaScript
